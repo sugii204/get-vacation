@@ -1,0 +1,16 @@
+# Node Modules
+/node_modules/
+
+# TypeScript Build Output
+/dist/
+
+# Environment Variable Files
+.env
+.env.local
+.env.*.local
+
+# TypeScript declartions
+*.d.ts
+
+# PNPM pckage lock file
+pnpm-lock.yaml

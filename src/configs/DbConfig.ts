@@ -1,5 +1,6 @@
 import { Client } from 'pg';
 import { logger } from '../utilities/Logger';
+require('dotenv').config();
 
 const client = new Client({
   user: process.env.DB_USER,

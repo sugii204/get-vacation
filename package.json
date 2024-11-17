@@ -10,7 +10,8 @@
     "lint": "eslint 'src/**/*.{ts,tsx}' --fix",
     "format": "prettier --write 'src/**/*.{ts,js,json,md}'",
     "migration-create": "node scripts/migration-create.js",
-    "seeder-create": "node scripts/seeder-create.js"
+    "create-seed-sql-file": "node scripts/create-seed-file.js",
+    "seed": "node scripts/seed.js"
   },
   "keywords": [],
   "author": "",

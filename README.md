@@ -27,3 +27,18 @@ GetVacation
 |-- nodemon.json
 |-- package.json
 ```
+
+## Scripts
+
+I've made few scripts to easyly running some part of the program. All the script all placed on `./scripts/`
+
+- Create Migration File Template
+
+  ```node.js
+  pnpm run migration create [your-migration-name]
+  ```
+
+- Create Seeder File Template
+  ```node.js
+  pnpm run seeder create [your-seeder-name]
+  ```

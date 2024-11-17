@@ -1,5 +1,6 @@
-import express, { Request, Response } from 'express';
+import { Request, Response } from 'express';
 
+const express = require('express');
 const app = express();
 
 // Middlwares
@@ -9,4 +10,4 @@ app.get('/api/v1/hello', (req: Request, res: Response) => {
   res.json({ message: 'Hello, world!' });
 });
 
-export default app;
+module.exports = app;

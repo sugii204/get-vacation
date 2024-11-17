@@ -1,5 +1,5 @@
-import { exec } from 'child_process';
-import process from 'process';
+const { exec } = require('child_process');
+const process = require('process');
 
 const migrationName = process.argv[2];
 
